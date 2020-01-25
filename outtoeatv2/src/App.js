@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to Get Schwifty.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { BrowserRouter, Route, Switch } from "react-router-dom"
+import Landing from './components/Landing'
+import Home from "./components/Home"
+import Nav from "./components/Nav"
+// import Header from './components/Header'
+// import './App.css';
+
+class App extends Component {
+  render(){
+    return (
+      <BrowserRouter>
+        <div>
+          <Switch>
+            <Route path='/' component={Landing} exact />
+            <Route path='/home' component={Home} exact />
+          </Switch>
+        </div>
+      </BrowserRouter>
+    )
+  }
 }
 
 export default App;

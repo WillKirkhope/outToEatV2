@@ -1,20 +1,40 @@
-.App {
+/* .App {
   text-align: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+} */
+
+/* .Home {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 5vw;
+}
+
+.App-header {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  background-color: #222;
+  height: 6vw;
+  padding: 2vw;
+  font-family: monospace;
+  color: #bdc3c7;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 100s linear;
   }
-}
+} */
 
-.App-header {
-  background-color: #282c34;
+/* .App-header {
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,17 +42,149 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-.App-link {
+/* .App-link {
   color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
+
+.Home {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 5vw;
+}
+
+/* .footer-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 3vw;
+} */
+
+.App-header {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  /* background-color: #222; */
+  /* height: 6vw; */
+  /* padding: 2vw; */
+  font-family: monospace;
+  color: #bdc3c7;
+}
+
+/* .App-footer {
+  margin-top: 2vw;
+} */
+
+.App-header-title {
+  font-size: 2vw;
+}
+
+/* .store-front {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 7.5vw 0 7.5vw;
+} */
+
+/* .product-tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 12vw;
+  height: 12vw;
+  margin: 2.5vw 2.5vw 2.5vw 2.5vw;
+  box-sizing: border-box;
+  border: #bfc3c9 5px;
+  border-style: outset;
+  font-size: 1vw;
+}
+
+.product-image {
+  width: 60%;
+  height: 60%;
+  margin: 0 2.5vw 0 2.5vw;
+
+} */
+
+/* .App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+} */
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/*Burger menu*/
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: absolute;
+  width: 2.5vw;
+  height: 2vw;
+  left: 95vw;
+  top: 3vw;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  color: #bdc3c7;
+  font-size: 1.5vw;
+  margin: 1vw 0 1vw 0;
+  font-family: sans-serif;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
 }

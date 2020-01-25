@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header'
-// import Footer from './Footer'
+import RestaurantCard from './RestaurantCard'
 // import Store from './Store'
 
 class Home extends Component {
@@ -25,6 +25,7 @@ getProducts = () => {
     return (
       <div className="Home">
       <Header />
+      <RestaurantCard />
       </div>
     );
   }

@@ -36,10 +36,40 @@
   font-size: 2vw;
 }
 
-/* .test {
-  margin-left: 50vw;
-  height: 30vw;
-} */
+.sub-home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardDisplay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vw;
+  width: 100vw;
+  height: auto;
+}
+
+.displayedCard{
+  width: 40vw;
+  height: auto;
+}
+
+.test{
+  min-width: 25vw;
+}
+
+.image{
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  max-width: 20vw;
+}
+
+Button{
+  width: 15vw;
+}
 
 /* .store-front {
   display: flex;

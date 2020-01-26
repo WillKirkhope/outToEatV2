@@ -25,7 +25,11 @@ getProducts = () => {
     return (
       <div className="Home">
       <Header />
-      <RestaurantCard />
+      <div className='sub-home'>
+        <div className="cardDisplay">
+          <RestaurantCard />
+        </div>
+      </div>
       </div>
     );
   }

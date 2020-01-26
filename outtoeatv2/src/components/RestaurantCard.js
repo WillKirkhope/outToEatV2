@@ -5,9 +5,9 @@ import { Button } from 'semantic-ui-react'
 class RestaurantCard extends Component{
   render(){
     return (
-      <div>
-        <Card className="test">
-          <Image src='/logo192.png' wrapped ui={false} />
+      <div className='displayedCard'>
+        <Card fluid color='black'>
+          <Image className="ui centered large image" src='/logo192.png' wrapped ui={false} />
           <Card.Content>
             <Card.Header>Restaurant One</Card.Header>
             <Card.Meta>
@@ -17,17 +17,11 @@ class RestaurantCard extends Component{
               This is where you will be eating deal with it.
             </Card.Description>
           </Card.Content>
-          <Card.Content extra>
-            <a>
-              <Icon name='user' />
-              22 Reviews
-            </a>
-          </Card.Content>
         </Card>
-        <Button color='black' animated>
-          <Button.Content visible>Randomize!</Button.Content>
+        <Button color='black' icon='shuffle'>
+          <Button.Content visible></Button.Content>
           <Button.Content hidden>
-            <Icon name='arrow right' />
+            <Icon name='shuffle' />
           </Button.Content>
         </Button>
       </div>

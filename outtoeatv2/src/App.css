@@ -70,6 +70,15 @@
   width: 30vw;
 }
 
+.loginCard{
+  border: solid 1px #CACACA;
+  border-radius: 30px;
+  box-shadow: 2px 2px #CACACA;
+  margin-bottom: 2vw;
+  width: 40vw;
+  height: 40vw;
+}
+
 Button{
   width: 15vw;
 }

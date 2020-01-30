@@ -4,8 +4,12 @@ class Landing extends Component{
   render(){
     return (
       <div>
-        <h1>Welcome to Out To Eat!</h1>
-        <p>Please Log In or Sign Up</p>
+        <div className='loginCard'>
+          <img src='/logo192.png'/>
+          <h3>Out To Eat</h3>
+          <span>Established in 2020</span>
+          <p>Please Log In or Sign Up</p>
+        </div>
       </div>
     )
   }

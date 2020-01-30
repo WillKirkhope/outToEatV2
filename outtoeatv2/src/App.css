@@ -52,19 +52,22 @@
   height: auto;
 }
 
-.displayedCard{
+.mainDisplay{
   width: 40vw;
   height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.test{
-  min-width: 25vw;
-}
-
-.image{
-  margin-top: 2vw;
+.displayedCard{
+  border: solid 1px #CACACA;
+  border-radius: 30px;
+  /* border-style: outset; */
+  box-shadow: 2px 2px #CACACA;
   margin-bottom: 2vw;
-  max-width: 20vw;
+  width: 30vw;
 }
 
 Button{

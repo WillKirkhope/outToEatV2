@@ -48,7 +48,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: blue;
+  background-image: url("./assets/foodBackground1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .cardDisplay {
@@ -90,6 +94,7 @@
   margin-bottom: 2vw;
   width: 40vw;
   height: 40vw;
+  background-color: white;
 }
 
 Button{

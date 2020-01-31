@@ -1,2 +1,2 @@
 ## Read Me ##
-- First Commit
+- A simple application to help you determine where you would like to eat when the decision is a struggle!

@@ -2,21 +2,16 @@ import React, { Component } from 'react';
 import { Button, Icon } from 'semantic-ui-react'
 
 class RestaurantCard extends Component{
+
+
   render(){
     return (
       <div className='mainDisplay'>
         <div className='displayedCard'>
-          <img src='/logo192.png'/>
-          <h3>Restaurant One</h3>
-          <span>Added in 2020</span>
-          <p>This is where you will be eating, deal with it.</p>
+          <img className='cardImage' src={this.props.restaurant.image} alt={Math.random()} />
+          <h2>{this.props.restaurant.name}</h2>
+          <h4>{this.props.restaurant.info}</h4>
         </div>
-        <Button color='black' icon='shuffle'>
-          <Button.Content visible></Button.Content>
-          <Button.Content hidden>
-            <Icon name='shuffle' />
-          </Button.Content>
-        </Button>
       </div>
     )
   }

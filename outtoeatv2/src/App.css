@@ -65,6 +65,11 @@
   height: auto;
 }
 
+.cardImage{
+  width: 100px;
+  height: auto;
+}
+
 .mainDisplay{
   width: 40vw;
   height: auto;

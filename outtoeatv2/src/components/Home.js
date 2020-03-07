@@ -1,24 +1,27 @@
 import React, { Component } from 'react';
-import Header from './Header'
-import RestaurantCard from './RestaurantCard'
+import Header from './Header';
+import RestaurantCard from './RestaurantCard';
+import RandomButton from './RandomButton';
+import data from '../restaurant.json';
 // import Store from './Store'
 
 class Home extends Component {
 
-state = {
-  products: []
+constructor(props) {
+  super(props)
+  this.state = {
+    restaurant: []
+  }
 }
 
 componentDidMount(){
-  this.getProducts()
+  this.getRestaurant()
 }
 
-getProducts = () => {
-  fetch('https://dormistore.herokuapp.com/products')
-    .then(response => response.json())
-    .then(productData => {
-      this.setState({products: productData.product})
-    })
+getRestaurant = () => {
+  let random = Math.floor(Math.random()*{data}.data.length)
+  let randomRestaurant = {data}.data[random]
+  this.setState({restaurant: randomRestaurant})
 }
 
   render() {
@@ -27,7 +30,8 @@ getProducts = () => {
       <Header />
       <div className='sub-home'>
         <div className="cardDisplay">
-          <RestaurantCard />
+          <RestaurantCard restaurant={this.state.restaurant} />
+          <RandomButton getRestaurant={this.getRestaurant}/>
         </div>
       </div>
       </div>

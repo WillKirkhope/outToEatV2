@@ -1,0 +1,61 @@
+[{
+    "id": 1,
+    "name": "Wahoos",
+    "info": "Wahoos Fish Tacos, Drop in. Eat well. Have fun!",
+    "image": "https://www.shopirvinecompany.com/media/4298/store-logo-wahoosfishtaco.png"
+  }, {
+    "id": 2,
+    "name": "Chick-Fil-A",
+    "info": "Home of the Original Chicken Sandwich",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Chick-fil-A_Logo.svg/1280px-Chick-fil-A_Logo.svg.png"
+  }, {
+    "id": 3,
+    "name": "Mod Pizza",
+    "info": "Individual Artisan-Style Pizza",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/99/Mod_Pizza_logo.png"
+  }, {
+    "id": 4,
+    "name": "Wing Stop",
+    "info": "Chiken Wings from the Wing Experts",
+    "image": "https://bloximages.chicago2.vip.townnews.com/pinalcentral.com/content/tncms/assets/v3/editorial/0/50/050af170-4a06-11e7-ba71-bb1ad898e33e/59357cbc789be.image.png?resize=1200%2C359"
+  }, {
+    "id": 5,
+    "name": "Which Wich",
+    "info": "Superior Sandwiches",
+    "image": "https://www.whichwich.com/wp-content/uploads/2017/03/WW-Horizontal-Logo-SUPERIOR-SANDWICHES_Yellow-uai-1032x227.png"
+  }, {
+    "id": 6,
+    "name": "Wendys",
+    "info": "Better than Burger King and McDonalds, I think...",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/Wendy%27s_logo_2012.svg/1200px-Wendy%27s_logo_2012.svg.png"
+  }, {
+    "id": 7,
+    "name": "Raising Cane's",
+    "info": "Raising Cane's chicken fangers are da best.",
+    "image": "http://matexas.s3.amazonaws.com/production/clients/images/1217/original/Raising-Cane.png?1493193459"
+  }, {
+    "id": 8,
+    "name": "Five Guys",
+    "info": "Five Guys, better than Four Guys, but not quite as good as Six Guys.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Five_Guys_logo.svg/2000px-Five_Guys_logo.svg.png"
+  }, {
+    "id": 9,
+    "name": "Schwarma?",
+    "info": "It's Mediterranean I think??",
+    "image": "https://cdn.iconscout.com/public/images/icon/premium/png-512/shawarma-falafel-food-street-wrap-375807a3c04a5313-512x512.png"
+  }, {
+    "id": 10,
+    "name": "Noodles & CO",
+    "info": "Noodles World Kitchen",
+    "image": "https://adc3ef35f321fe6e725a-fb8aac3b3bf42afe824f73b606f0aa4c.ssl.cf1.rackcdn.com/tenantlogos/15946.png"
+  }, {
+    "id": 11,
+    "name": "Panda Express",
+    "info": "A Fast Casual Chinese Restaurant",
+    "image": "http://logonoid.com/images/panda-express-logo.png"
+  }, {
+    "id": 12,
+    "name": "Rubios",
+    "info": "Coastal Grill",
+    "image": "https://adc3ef35f321fe6e725a-fb8aac3b3bf42afe824f73b606f0aa4c.ssl.cf1.rackcdn.com/tenantlogos/7575.png"
+  }]

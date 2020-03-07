@@ -8,7 +8,7 @@ class RestaurantCard extends Component{
     return (
       <div className='mainDisplay'>
         <div className='displayedCard'>
-          <img className='cardImage' src={this.props.restaurant.image} alt={Math.random()} />
+          <img src='logo192.png' />
           <h2>{this.props.restaurant.name}</h2>
           <h4>{this.props.restaurant.info}</h4>
         </div>

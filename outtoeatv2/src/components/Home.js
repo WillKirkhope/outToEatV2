@@ -3,7 +3,6 @@ import Header from './Header';
 import RestaurantCard from './RestaurantCard';
 import RandomButton from './RandomButton';
 import data from '../restaurant.json';
-// import Store from './Store'
 
 class Home extends Component {
 
